@@ -5,26 +5,20 @@
 using namespace std;
 class Town
 {
-	int rate;
-	vector<pair<int, int>> ProductionRecources;
-	vector<int> upgrades;
-	vector<int> affinities;
-	vector<pair<int, int>> sellRates;
-	pair<int, int> Enteloot;
-	
-	const vector<vector<pair<int, int>>> craftingCost;
-
-	struct Edge
-	{
-		int To;
-		int Travel_time;
-		int Travel_Cost;
-	};
+public:
+public: int rate;
+public: vector<pair<string, int>> ProductionRecources;
+public: vector<string> upgrades;
+public: vector<string> affinities;
+public: vector<pair<string, int>> ItemRates;
+public: pair<int, int> Enteloot;
+	 
+	//const vector<vector<pair<int, int>>> craftingCost;
 
 	vector<pair<int,int>> CalcRecourcesAccumulated(int Ticks){
 		int cycles = floor(Ticks / rate);
 		vector<pair<int, int>> OutVector;
-		for (pair<int,int> var : ProductionRecources) {
+		for (pair<string,int> var : ProductionRecources) {
 			OutVector.emplace_back(var.first, var.second * cycles);
 		}
 		return OutVector;
