@@ -3,6 +3,7 @@
 #include <tuple>
 
 using namespace std;
+
 class Town
 {
 public:

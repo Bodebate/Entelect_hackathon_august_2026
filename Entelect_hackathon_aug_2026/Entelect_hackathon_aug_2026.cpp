@@ -74,7 +74,6 @@ bool WriteJsonExtremelyFast(const char* filepath, const rapidjson::Document & do
     return success;
 }
 
-<<<<<<< Updated upstream
 int Actions(int i) {
     switch (i) {
     case 1:
@@ -132,11 +131,10 @@ int Upkeep() {
     // Implement upkeep logic here
     return 0;
 }
-=======
+
 vector<pair<string, Town>> TownsData = { { "Demensia",{} }, {"Noxus",{}}, {"Piltover",{}} };
 vector<pair<string, Node>> NodeData = { {"N1",{}},{"N2",{}},{"N3",{}} };
 vector<Routes> RouteData;
->>>>>>> Stashed changes
 
 int main() {
     // Files will look inside your project execution directory
@@ -171,10 +169,10 @@ int main() {
                 var.distance = route["weight"].GetInt();
                 var.EndPoints.first = route["between"].GetArray()[0].GetString();
                 var.EndPoints.second = route["between"].GetArray()[0].GetString();
-
           }
+            
         }
-
+            
         std::cout << "[Visual Studio 2022] Initialising fast write...\n";
         if (WriteJsonExtremelyFast(output_file, doc)) {
             std::cout << "Success! High-performance operations completed successfully.\n";

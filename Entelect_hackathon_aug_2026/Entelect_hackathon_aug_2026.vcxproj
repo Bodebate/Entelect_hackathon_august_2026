@@ -126,14 +126,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Entelect_hackathon_aug_2026.cpp" />
-<<<<<<< Updated upstream
+
     <ClCompile Include="Mayor.cpp" />
-    <ClCompile Include="Town.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mayor.h" />
-=======
+
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="Routes.cpp" />
     <ClCompile Include="Routs.cpp" />
@@ -142,7 +140,7 @@
   <ItemGroup>
     <ClInclude Include="Node.h" />
     <ClInclude Include="Routes.h" />
->>>>>>> Stashed changes
+
     <ClInclude Include="Town.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
