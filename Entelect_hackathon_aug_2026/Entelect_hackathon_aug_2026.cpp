@@ -11,19 +11,18 @@
 
 // 64 KB buffer size aligns perfectly with Windows OS file system paging limits
 constexpr size_t IO_BUFFER_SIZE = 65536;
-
-std::vector<std::tuple<std::string, int, int>> RT;
+int total_ticks;
+int current_tick = 0;
+std::vector<std::tuple<int, int, int>> RT;
 
 int LoadResource() {
-    RT.emplace_back("Wheat", 2, 4);
-	RT.emplace_back("Corn", 3, 5);
-	RT.emplace_back("Rice", 1, 3);
-	RT.emplace_back("Wood", 3, 5);
-	RT.emplace_back("Stone", 3, 5);
-	RT.emplace_back("Clay", 4, 6);
-	RT.emplace_back("Fish", 4, 6);
-	RT.emplace_back("Sheep", 5, 8);
-	RT.emplace_back("Ore", 6);
+    RT.emplace_back(1, 2, 4);
+    RT.emplace_back(2, 3, 5);
+	RT.emplace_back(3, 3, 5);
+	RT.emplace_back(4, 4, 6);
+	RT.emplace_back(5, 4, 6);
+	RT.emplace_back(6, 5, 8);
+	RT.emplace_back(7, 6, 8);
 	return 0;
 }
 
