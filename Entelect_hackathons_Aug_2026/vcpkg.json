@@ -1,7 +1,0 @@
-{
-    "name":"entelect_hackathon_aug_2026",
-    "version-string":"1.0.0",
-    "dependencies":[
-        "simdjson"
-    ]
-}
