@@ -18,5 +18,13 @@
     <ClCompile Include="Entelect_hackathon_aug_2026.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Town.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

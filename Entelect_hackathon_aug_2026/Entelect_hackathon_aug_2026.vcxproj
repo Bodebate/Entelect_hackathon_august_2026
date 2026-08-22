@@ -127,6 +127,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Entelect_hackathon_aug_2026.cpp" />
+    <ClCompile Include="Town.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Town.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
