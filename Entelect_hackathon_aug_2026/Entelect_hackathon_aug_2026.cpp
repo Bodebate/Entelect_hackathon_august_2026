@@ -1,6 +1,7 @@
 #include <cstdio>
 #include <vector>
 #include <iostream>
+#include <utility>
 
 // RapidJSON headers
 #include "rapidjson/document.h"
@@ -10,6 +11,21 @@
 
 // 64 KB buffer size aligns perfectly with Windows OS file system paging limits
 constexpr size_t IO_BUFFER_SIZE = 65536;
+
+std::vector<std::tuple<std::string, int, int>> RT;
+
+int LoadResource() {
+    RT.emplace_back("Wheat", 2, 4);
+	RT.emplace_back("Corn", 3, 5);
+	RT.emplace_back("Rice", 1, 3);
+	RT.emplace_back("Wood", 3, 5);
+	RT.emplace_back("Stone", 3, 5);
+	RT.emplace_back("Clay", 4, 6);
+	RT.emplace_back("Fish", 4, 6);
+	RT.emplace_back("Sheep", 5, 8);
+	RT.emplace_back("Ore", 6);
+	return 0;
+}
 
 bool ReadJsonExtremelyFast(const char* filepath, rapidjson::Document & doc) {
     // Windows low-level C file streaming
@@ -52,6 +68,8 @@ bool WriteJsonExtremelyFast(const char* filepath, const rapidjson::Document & do
     std::fclose(fp);
     return success;
 }
+
+
 
 int main() {
     // Files will look inside your project execution directory
