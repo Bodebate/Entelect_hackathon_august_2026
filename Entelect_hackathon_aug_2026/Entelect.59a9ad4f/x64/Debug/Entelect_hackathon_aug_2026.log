@@ -1,2 +1,1 @@
-﻿  Entelect_hackathon_aug_2026.cpp
-  Entelect_hackathon_aug_2026.vcxproj -> C:\Users\liamd\Documents\private bs\Hackathons\Entelect_hackathon_august_2026\Entelect_hackathon_aug_2026\x64\Debug\Entelect_hackathon_aug_2026.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(463,5): error MSB8020: The build tools for v145 (Platform Toolset = 'v145') cannot be found. To build using the v145 build tools, please install v145 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
