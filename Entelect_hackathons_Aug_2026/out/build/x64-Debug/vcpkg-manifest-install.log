@@ -1,0 +1,3 @@
+C:\Users\liamd\Documents\private bs\Hackathons\Entelect_hackathon_august_2026\Entelect_hackathons_Aug_2026\vcpkg.json: error: $.name (a package name): "entelect_hackathon_aug_2026" is not a valid package name. Package names must be lowercase alphanumeric+hyphens and not reserved (see https://learn.microsoft.com/vcpkg/users/manifests?WT.mc_id=vcpkg_inproduct_cli for more information).
+note: Extended documentation available at 'https://learn.microsoft.com/vcpkg/users/manifests?WT.mc_id=vcpkg_inproduct_cli'.
+
