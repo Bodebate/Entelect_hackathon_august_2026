@@ -170,6 +170,8 @@ int main() {
                 var.EndPoints.first = route["between"].GetArray()[0].GetString();
                 var.EndPoints.second = route["between"].GetArray()[0].GetString();
           }
+            doc.Clear; 
+
             
         }
             

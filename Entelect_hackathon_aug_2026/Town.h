@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 #include <tuple>
-
+#include <string>
 using namespace std;
 
 class Town
