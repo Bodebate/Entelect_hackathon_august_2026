@@ -69,7 +69,63 @@ bool WriteJsonExtremelyFast(const char* filepath, const rapidjson::Document & do
     return success;
 }
 
+int Actions(int i) {
+    switch (i) {
+    case 1:
+        Travel;
+    case 2:
+        Buy;
+    case 3:
+        Sell;
+    case 4:
+        Craft;
+    case 5:
+        Build;
+    case 6:
+        Gather;
+    case 7:
+        Upkeep;
+    default:
+        return 0;
+    }
+}
 
+int Travel() {
+    // Implement travel logic here
+
+    return 0;
+}
+
+int Buy() {
+    // Implement buy logic here
+    return 0;
+}
+
+int Sell() {
+    // Implement sell logic here
+
+    return 0;
+}
+
+int Craft() {
+    // Implement craft logic here
+    return 0;
+}
+
+int Build() {
+    // Implement build logic here
+    return 0;
+}
+
+int Gather() {
+    // Implement gather logic here
+    return 0;
+}
+
+int Upkeep() {
+    // Implement upkeep logic here
+    return 0;
+}
 
 int main() {
     // Files will look inside your project execution directory

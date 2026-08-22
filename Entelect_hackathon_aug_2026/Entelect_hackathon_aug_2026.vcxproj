@@ -127,9 +127,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Entelect_hackathon_aug_2026.cpp" />
+    <ClCompile Include="Mayor.cpp" />
     <ClCompile Include="Town.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Mayor.h" />
     <ClInclude Include="Town.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
